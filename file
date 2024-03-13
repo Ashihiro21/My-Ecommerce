@@ -1,0 +1,5 @@
+<div class='table_bottom'>
+    <a href='shop_product.php' class='btn btn-primary'>Continue_Shopping</a>
+    <h3 class='btn btn-primary mt-2'>Grand Total <span><?php echo $grad_total ?>/-</span></h3>
+    <a href='checkout.php' class='btn btn-primary'>Proceed to Checkout</a>
+  </div>

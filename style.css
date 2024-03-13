@@ -1,0 +1,69 @@
+.button-no-background {
+    background-color: none;
+    border: none;
+
+}
+
+.nav-item1 {
+    margin-right: 10rem; /* Adjust spacing between items as needed */
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+    border-color: none;
+    
+}
+
+.dropdown-toggle:focus {
+    border: none; /* Remove border when the button is clicked */
+    outline: none; /* Remove outline on focus (for accessibility) */
+  }
+
+
+.dropdown-menu{
+    padding: 1rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+.row_count{
+    font-weight: bolder;
+}
+
+.card{
+    border-color: transparent;
+}
+.checkbox {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .nav-item1 {
+        margin: 10px 0; /* Adjust spacing between items as needed */
+    }
+    footer{
+        margin: 0px auto;
+    }
+
+}
